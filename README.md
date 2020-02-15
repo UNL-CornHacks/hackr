@@ -21,7 +21,9 @@
 - Android - Install [adb (Android Debug Bridge)](https://developer.android.com/studio/releases/platform-tools.html)
 - IOS - Xcode and an apple device required
 
+Run `yarn install` in directory root.
 
+## How to run
 ### Launch Server/local web
 $ yarn web
 
@@ -32,6 +34,12 @@ $ yarn ios
 #### Android (connected device or android studio)
 $ yarn android
 
+### Android Setup
+You will need the above dependencies for Android. Make sure your path is updated for `platform-tools` and `tools`. Also make sure `ANDROID_HOME` is set.
+
+Create and run an Android Virtual Device that will serve as the device for the app to be deployed to.
+
+Run `yarn android`.
 
 ## Debugging
 
