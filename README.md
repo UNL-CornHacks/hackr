@@ -1,47 +1,37 @@
 # Initiated with create-react-native-web-app
 
+
+## Dependencies
+
+### Web
+- Node
+- yarn
+
+### Android
+- Android Studio 
+- (Windows) Intel x86 Emulator Accellerator (HAXM Installer) - this can be found in Android Studio -> Settings -> Apprearance & Behavior -> System Settings -> Android SDK -> SDK Tools
+- Android SDK
+- Android SDK tools (possibly)
+
+### iOS
+- IDK yet
+
 ## Installation
 
 - Android - Install [adb (Android Debug Bridge)](https://developer.android.com/studio/releases/platform-tools.html)
 - IOS - Xcode and an apple device required
 
 
-# Launch Server/local web
+### Launch Server/local web
 $ yarn web
 
-# Run in another terminal
-## IOS (simulator)
+### Run in another terminal
+#### IOS (simulator)
 $ yarn ios
 
-## Android (connected device or android studio)
+#### Android (connected device or android studio)
 $ yarn android
 
-## Testing
-
-```sh
-# Web and Native
-$ npm run test
-
-# Web
-$ npm run test:web
-
-# Web watch mode
-$ npm run test:web-watch
-
-
-# Native
-$ npm run test:native
-
-# Native watch mode
-$ npm run test:native-watch
-
-
-# Coverage - web
-$ npm run coverage
-
-# Coverage - native
-$ npm run coverage:native
-```
 
 ## Debugging
 
