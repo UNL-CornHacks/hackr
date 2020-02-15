@@ -1,4 +1,4 @@
-# this repository was initiated with create-react-native-web-app
+# Initiated with create-react-native-web-app
 
 ## Installation
 
